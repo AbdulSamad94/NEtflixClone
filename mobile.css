@@ -1,0 +1,138 @@
+@media screen and (max-width: 1020px) {
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img img {
+        width: 250px;
+    }
+
+
+
+    .text h1 {
+        font-size: 39px;
+        margin-top: 50px;
+    }
+
+    .para p {
+        font-size: 17px;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    form {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    form input {
+        width: 200px;
+    }
+
+    .img img {
+        margin-left: 0;
+    }
+
+    .img video {
+        width: 180px;
+        bottom: -7px;
+        left: 35px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .imager {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .imager img {
+        width: 350px;
+        margin-bottom: 40px;
+    }
+
+    .imager span {
+        width: 300px;
+    }
+
+    .imager span h1 {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .imager span p {
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tvs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        width: 350px;
+        margin: auto;
+    }
+
+    .tvs h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .tvs p {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .attributes {
+        margin-top: 30px;
+        gap: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .attributes p {
+        font-size: 12px;
+    }
+
+    .attributes div a {
+        font-size: 9px;
+    }
+
+    .attributes div {
+        margin: 10px 2px;
+    }
+
+    .attributes div button {
+        width: 90px;
+        font-size: 12px;
+    }
+
+}
